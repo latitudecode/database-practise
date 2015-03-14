@@ -41,7 +41,7 @@
 		<!-- end main intro category copy -->
 	</div>
 
-	<section class="main-columns category-list"> <!-- main category intro wrapper -->
+	<section class="main-columns category-list mosaic"> <!-- main category intro wrapper -->
 		<!-- start three columns for category content -->
 			<div class="row row-effect"> 
 
@@ -70,8 +70,7 @@
 					<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 						<figcaption>
-							<p>Title</p>
-							<p>34" x 44"</p>
+							<p><?php echo get_post_meta($post->ID, 'latitude_name', true); ?></p>
 						</figcaption>			  		
 				  	</figure>
 			  	</a>
@@ -103,8 +102,7 @@
 					<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 						<figcaption>
-							<p>Title</p>
-							<p>34" x 44"</p>
+							<p><?php echo get_post_meta($post->ID, 'latitude_name', true); ?></p>
 						</figcaption>			  		
 				  	</figure>
 				 </a>	
@@ -136,8 +134,7 @@
 					<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 						<figcaption>
-							<p>Title</p>
-							<p>34" x 44"</p>
+							<p><?php echo get_post_meta($post->ID, 'latitude_name', true); ?></p>
 						</figcaption>			  		
 				  	</figure>
 				 </a>	

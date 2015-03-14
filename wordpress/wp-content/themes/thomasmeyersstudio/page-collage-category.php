@@ -41,7 +41,7 @@
 		<!-- end main intro category copy -->
 	</div>
 
-	<section class="main-columns category-list"> <!-- main category intro wrapper -->
+	<section class="main-columns category-list collage"> <!-- main category intro wrapper -->
 		<!-- start three columns for category content -->
 			<div class="row row-effect"> 
 
@@ -59,7 +59,7 @@
 					<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>	
 			  	
 			  	<a href="<?php the_permalink(); ?>">
-				  	<figure class="effect-hover"> 
+				  	<figure class="effect-hover lazyload"> 
 
 					<?php 
 					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
@@ -70,8 +70,7 @@
 					<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 						<figcaption>
-							<p>Title</p>
-							<p>34" x 44"</p>
+							<p><?php echo get_post_meta($post->ID, 'latitude_name', true); ?></p>
 						</figcaption>			  		
 				  	</figure>
 			  	</a>
@@ -92,7 +91,7 @@
 					<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>	
 
 				<a href="<?php the_permalink(); ?>">	
-				  	<figure class="effect-hover"> 
+				  	<figure class="effect-hover lazyload"> 
 					
 					<?php 
 					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
@@ -103,8 +102,7 @@
 					<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 						<figcaption>
-							<p>Title</p>
-							<p>34" x 44"</p>
+							<p><?php echo get_post_meta($post->ID, 'latitude_name', true); ?></p>
 						</figcaption>			  		
 				  	</figure>
 				 </a>	
@@ -125,7 +123,7 @@
 					<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>	
 
 				<a href="<?php the_permalink(); ?>">	
-				  	<figure class="effect-hover"> 
+				  	<figure class="effect-hover lazyload"> 
 					
 					<?php 
 					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
@@ -136,8 +134,7 @@
 					<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 						<figcaption>
-							<p>Title</p>
-							<p>34" x 44"</p>
+							<p><?php echo get_post_meta($post->ID, 'latitude_name', true); ?></p>
 						</figcaption>			  		
 				  	</figure>
 				 </a>	

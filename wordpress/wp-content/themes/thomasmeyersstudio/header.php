@@ -31,7 +31,9 @@
 <!-- hover action -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover.css" />	
 <!-- form css -->
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/forms.css" />	
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/forms.css" />
+<!-- lazy load script -->
+<script src="<?php bloginfo('template_directory'); ?>/js/lazysizes.min.js" async=""></script>	
 <!-- google analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
