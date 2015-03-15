@@ -95,6 +95,14 @@ nav ul li {
 	padding: 30px 20px 0px 0px;
 }
 
+.primary-nav .sub-menu {
+  display: none;
+}
+
+ul.sub-menu {
+  margin-left: 20px;
+}
+
 ul.nav-links, ul.sub-nav-links {
 margin-top: 16px;
 }

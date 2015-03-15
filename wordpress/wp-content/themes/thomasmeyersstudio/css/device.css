@@ -135,6 +135,8 @@ li.title {padding: 0px !important;}
 .product-detail img.attachment-post-thumbnail.wp-post-image {width: 50% !important;}
 li.grid-block, li.previous, li.next {padding: 19px 20px 15px 20px !important;}
 .main-content.product-detail {  background-color: #474747; padding-top: 40px;}
+/* info */
+.info .right-col {display: none;}
 }
 
 /* iPads (landscape) ----------- */
@@ -194,6 +196,7 @@ and (min-width : 1024px) {
 /* work */
 /* list */
 /* detial */
+
 }
 
 /* Desktops and laptops ----------- */
