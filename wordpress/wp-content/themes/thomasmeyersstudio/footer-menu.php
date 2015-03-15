@@ -64,7 +64,11 @@
 			$( '#cbp-fwslider' ).cbpFWSlider();
 
 		} );
-	</script>    
+	</script>   
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="progressive-image.js"></script>
+
 <?php wp_footer(); ?>
 </body>
 </html>
