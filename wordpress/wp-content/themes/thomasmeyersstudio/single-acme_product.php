@@ -17,11 +17,11 @@ get_header('subnav'); ?>
 				
 						<?php if(get_post_meta()) { ?>
 							
-							<img class="lazyload progressive-image" src="<?php echo get_post_meta(); ?>" />
+							<img width="<?php echo get_post_meta($post->ID, 'latitude_200px', true); ?><?php echo get_post_meta($post->ID, 'latitude_300px', true); ?><?php echo get_post_meta($post->ID, 'latitude_400px', true); ?><?php echo get_post_meta($post->ID, 'latitude_500px', true); ?><?php echo get_post_meta($post->ID, 'latitude_600px', true); ?><?php echo get_post_meta($post->ID, 'latitude_700px', true); ?><?php echo get_post_meta($post->ID, 'latitude_800px', true); ?><?php echo get_post_meta($post->ID, 'latitude_900px', true); ?>" class="lazyload progressive-image" src="<?php echo get_post_meta(); ?>" />
 							
 						<?php } else { ?>
 							
-							<img class="lazyload progressive-image" src="<?php echo $imgsrc[0]; ?>" />
+							<img width="<?php echo get_post_meta($post->ID, 'latitude_200px', true); ?><?php echo get_post_meta($post->ID, 'latitude_300px', true); ?><?php echo get_post_meta($post->ID, 'latitude_400px', true); ?><?php echo get_post_meta($post->ID, 'latitude_500px', true); ?><?php echo get_post_meta($post->ID, 'latitude_600px', true); ?><?php echo get_post_meta($post->ID, 'latitude_700px', true); ?><?php echo get_post_meta($post->ID, 'latitude_800px', true); ?><?php echo get_post_meta($post->ID, 'latitude_900px', true); ?>" class="lazyload progressive-image" src="<?php echo $imgsrc[0]; ?>" />
 							
 						<?php } ?>
 				
