@@ -48,7 +48,24 @@
 			$( '#cbp-fwslider' ).cbpFWSlider();
 
 		} );
-	</script>    
+	</script>   
+
+<!-- progressive image load -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/progressive-image.js"></script>
+
+	<script>
+    $(function(){
+      $('.progressive-image').progressiveImage(); 
+    });
+    $(window).on('resize', function(){
+      $('.progressive-image').progressiveImage(); 
+    });
+  </script>
+<!-- end progressive image load -->
+
+
+ 
 <?php wp_footer(); ?>
 </body>
 </html>

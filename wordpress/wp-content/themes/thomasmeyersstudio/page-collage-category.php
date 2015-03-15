@@ -63,11 +63,11 @@
 
 						<?php if(get_post_meta()) { ?>
 							
-							<img class="lazyload" src="<?php echo get_post_meta(); ?>" />
+							<img class="lazyload progressive-image" src="<?php echo get_post_meta(); ?>" />
 							
 						<?php } else { ?>
 							
-							<img class="lazyload" src="<?php echo $imgsrc[0]; ?>" />
+							<img class="lazyload progressive-image" src="<?php echo $imgsrc[0]; ?>" />
 							
 						<?php } ?>
 
