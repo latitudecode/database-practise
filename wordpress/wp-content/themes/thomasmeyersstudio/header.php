@@ -5,12 +5,12 @@
 <meta content="test">
 <!-- This is a website for Thomas Meyers -->
 <!-- core css -->
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/media.css" /> 
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/device.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/bootstrap-responsive.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/custom.css" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/media.css" /> 
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/device.css" /> 
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/custom.css" /> 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/pushdown.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/slider.css" />
 <!-- google fonts -->
