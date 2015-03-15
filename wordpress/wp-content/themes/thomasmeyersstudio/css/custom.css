@@ -746,6 +746,7 @@ body.page-id-135 .sub-nav {
 .info .right-col {
   position: absolute;
   right: 40px;
+  z-index: 99999999 !important;  
 }
 
 
