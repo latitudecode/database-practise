@@ -6,10 +6,10 @@
 	<section class="slider">
 			<div id="cbp-fwslider" class="cbp-fwslider">
 				<ul>
-					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide2.jpg" alt="img02"/></li>
-					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide5.jpg" alt="img01"/></li>
-					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide3.jpg" alt="img03"/></li>
-					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide4.jpg" alt="img04"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide2.jpg" alt="img03"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide9.jpg" alt="img02"/></li>					
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide8.jpg" alt="img01"/></li>				
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide12.jpg" alt="img01"/></li>	
 				</ul>
 			</div>
 	</section>
