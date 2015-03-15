@@ -527,7 +527,7 @@ height: 100%;
 
 .category-intro-mosaic {
 	height: 380px; /* change this to larger later */
-	background-image: url('http://thomasmeyersstudio.com/new/wp-content/themes/thomasmeyersstudio/images/collage-bg.jpg');
+	background-image: url('http://thomasmeyersstudio.com/new/wp-content/themes/thomasmeyersstudio/images/mosaic-bg.jpg');
 	top: 55px;
 	position: relative;
 	border-bottom: 1px solid #f1dfd2;
