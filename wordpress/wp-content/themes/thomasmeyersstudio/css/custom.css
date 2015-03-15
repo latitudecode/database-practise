@@ -564,8 +564,16 @@ height: 100%;
 	padding-top: 50px;
 }
 
+.col-md-3 a img {
+	max-width: 260px !important;
+}
+
 .category-list .row .col-md-6 {
 	padding-top: 50px;
+}
+
+.col-md-6 a img {
+    max-width: 450px !important;
 }
 
 img.land-lrg {

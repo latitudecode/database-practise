@@ -15,13 +15,15 @@ get_header('subnav'); ?>
 
 				<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 				
-					<?php 
-					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-						the_post_thumbnail();
-					} 
-					?>
-
-					<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+						<?php if(get_post_meta()) { ?>
+							
+							<img class="lazyload progressive-image" src="<?php echo get_post_meta(); ?>" />
+							
+						<?php } else { ?>
+							
+							<img class="lazyload progressive-image" src="<?php echo $imgsrc[0]; ?>" />
+							
+						<?php } ?>
 				
 					<a href="<?php echo $imgsrc[0]; ?>"><i class="fa fa-expand"></i></a> <!-- expander baby -->
 
