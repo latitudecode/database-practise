@@ -32,6 +32,8 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover.css" />	
 <!-- form css -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/forms.css" />
+<!-- firefox css -->
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/firefox.css" />
 <!-- lazy load script -->
 <script src="<?php bloginfo('template_directory'); ?>/js/lazysizes.min.js" async=""></script>	
 <!-- google analytics -->

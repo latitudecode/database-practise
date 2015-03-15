@@ -1,0 +1,14 @@
+@-moz-document url-prefix() { 
+	.col-md-3 a img {
+		max-width: 260px !important;
+	}
+
+	.col-md-6 a img {
+	    max-width: 450px !important;
+	}
+
+	.row-effect figure img {
+		width: 100% !important;
+	}
+
+}
