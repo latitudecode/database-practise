@@ -110,6 +110,11 @@ a.nav-toggler.toggle-push-top {
 	right: 40px;
 }
 
+button.close-menu {
+  background: none;
+  border: none;
+}
+
 .logo ul {
 margin-left: 44px;
 }
