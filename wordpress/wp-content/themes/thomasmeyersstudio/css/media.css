@@ -41,6 +41,7 @@ section.main-content.product-details { top: 20px !important; }
 .category-list .row .col-md-3 {padding-top: 20px !important;}
 .main-columns {top: -15px !important;}
 .col-md-3 img { margin-bottom: 25px; }
+.row-effect figure figcaption {  bottom: 30px !important;}
 /* detial */
 .product-detail-section {text-align: center; padding-bottom: 75px;margin-top: 0px;margin-bottom: 0px;}
 .product-detail-section img.attachment-post-thumbnail.wp-post-image { width: 85%; }

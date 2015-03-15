@@ -56,18 +56,20 @@
 
 			  <div class="col-md-3">  <!-- first column for portait work -->
 
-					<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>	
+					<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 			  	
 			  	<a href="<?php the_permalink(); ?>">
-				  	<figure class="effect-hover lazyload"> 
+				  	<figure class="effect-hover"> 
 
-					<?php 
-					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-						the_post_thumbnail();
-					} 
-					?>
-
-					<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+						<?php if(get_post_meta()) { ?>
+							
+							<img class="lazyload" src="<?php echo get_post_meta(); ?>" />
+							
+						<?php } else { ?>
+							
+							<img class="lazyload" src="<?php echo $imgsrc[0]; ?>" />
+							
+						<?php } ?>
 
 						<figcaption>
 							<p><?php echo get_post_meta($post->ID, 'latitude_name', true); ?></p>
